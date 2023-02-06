@@ -2,6 +2,8 @@
 
 ## 安装
 
+本地初始源代码：
+
     $ npx create-docusaurus@latest dalanshu-docusaurus classic --typescript
     Need to install the following packages:
       create-docusaurus@2.3.1
@@ -46,5 +48,10 @@
     
     Happy building awesome websites!
 
+
+部署到服务器：
+
+    $ yarn
+    $ yarn build
 
 
