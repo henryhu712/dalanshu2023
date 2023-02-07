@@ -6,6 +6,25 @@ sidebar_position: 5
 
 网摘笔记
 
+## git：按照代码查找提交
+
+1. git-log
+
+按照代码内容查找 commit，例如，有一行代码为：foo = foo + bar
+
+    git log -S "foo = foo + bar"
+
+上述命令将给出该行代码创建的 commit。
+
+2. git-blame
+
+按照行号查询提交。例如，查找第 110 行代码是谁写的：
+
+    git blame -L 100,100
+
+上面的命令将给出该行的最后提交，也就可以找到该行的最后一个作者。
+
+
 ## 日本新干线
 
 最近发现了一个问题。
@@ -28,4 +47,13 @@ sidebar_position: 5
 green席就是座位稍微高级点
 
 source: [tweet](https://twitter.com/yuebanzhu/status/1622961425739313153)
+
+
+## Ruby: require vs include
+
+The require method does what include does in most other programming languages: run another file. It also tracks what you've required in the past and won't require the same file twice. To run another file without this added functionality, you can use the load method.
+
+The include method takes all the methods from another module and includes them into the current module. This is a language-level thing as opposed to a file-level thing as with require. The include method is the primary way to "extend" classes with other modules (usually referred to as mix-ins). For example, if your class defines the method "each", you can include the mixin module Enumerable and it can act as a collection. This can be confusing as the include verb is used very differently in other languages.
+
+source: [A Quick Peek at Ruby: 'Include' vs. 'Require'](http://ruby.about.com/b/2008/10/23/a-quick-peek-at-ruby-include-vs-require.htm)
 
