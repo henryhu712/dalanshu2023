@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '微移视界',
-  tagline: 'Writing is creating',
+  tagline: '产品开发文档集',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -74,24 +74,19 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: '开发文档',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          /*{to: '/blog', label: 'Blog', position: 'left'},*/
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '文档',
             items: [
               {
-                label: 'Tutorial',
+                label: '开发文档',
                 to: '/docs/intro',
               },
             ],
