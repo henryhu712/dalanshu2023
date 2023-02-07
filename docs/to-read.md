@@ -5,7 +5,13 @@
 
 在浏览器中做一个电子书阅读器：[epub.js](https://github.com/futurepress/epub.js/)
 
-epub3 才是文档格式的未来，因为它兼容HTML。pdf 在屏幕时代已经落伍。
+epub3 才是文档格式的未来，因为它兼容HTML。pdf 格式在屏幕时代已经落伍。
+
+做一个文档网站，网页和epub可以联通：
+
+- Web -> EPUB page
+- EPUB page -> EPUB page
+- EPUB page -> Web
 
 
 # pdf
