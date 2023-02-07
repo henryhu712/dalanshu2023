@@ -18,7 +18,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-              👉 开发文档
+              开始
           </Link>
         </div>
       </div>
@@ -31,7 +31,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`大蓝书`}
-      description="Description will go into a meta tag in <head />">
+      description="产品开发文档">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
