@@ -18,7 +18,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-              <i className="fas fa-hand-point-right"></i> 开发文档
+              👉 开发文档
           </Link>
         </div>
       </div>
