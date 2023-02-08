@@ -1,10 +1,14 @@
+# NOW
 
+What is a good business website? 
 
-🟩 task 1
+🟩 [1] pack su(cx) plugin.
 
-✅ task 2
+🟩 [2] pb3 drawing
 
-🟩
+✅ 
+
+🟩 [2] pack su(hwy) plugin
 
 🟩
 
