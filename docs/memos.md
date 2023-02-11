@@ -6,6 +6,16 @@ sidebar_position: 5
 
 网摘笔记
 
+## SketchUp 插件开发
+
+发布路径：
+
+    [废弃]  /mnt/d/projects/sketchup-plugins77-for-release/sketchup-plugins
+            /mnt/d/projects/sketchup-plugins88-for-release/sketchup-plugins
+
+删除了 google, sqlite3 目录。
+
+
 ## git：按照代码查找提交
 
 1. git-log
