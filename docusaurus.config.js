@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '微移视界',
-  tagline: '微移视界产品开发文档库',
+  tagline: '微移视界文档库',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
