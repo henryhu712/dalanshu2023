@@ -6,6 +6,11 @@ sidebar_position: 5
 
 网摘笔记
 
+## ts-node
+
+每周下周量高达2千万：
+[npm ts-node](https://www.npmjs.com/package/ts-node)
+
 ## SketchUp 插件开发
 
 发布路径：
